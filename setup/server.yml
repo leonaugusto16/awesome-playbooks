@@ -1,6 +1,0 @@
----
-- name: choose a role and put it below
-  hosts: remote
-
-  roles:
-    - docker
