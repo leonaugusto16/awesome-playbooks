@@ -1,3 +1,3 @@
 # awesome-playbooks
 
-ansible-playbook --private-key=.vagrant/machines/default/virtualbox/private_key -i setup/hosts setup/server.yml
+ansible-playbook --private-key=.vagrant/machines/default/<PROVIDER>/private_key -i setup/hosts roles/<ROLE>/main.yml 
